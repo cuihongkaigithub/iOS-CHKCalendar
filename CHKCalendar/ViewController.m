@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CHKCalendar.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CHKCalendar *calendar = [[CHKCalendar alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 500)];
+    
+    [self.view addSubview:calendar];
 }
 
 

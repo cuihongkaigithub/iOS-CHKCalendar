@@ -15,6 +15,12 @@
 		CD56AAED1F0C8EA10033A1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD56AAEB1F0C8EA10033A1A4 /* LaunchScreen.storyboard */; };
 		CD56AAF81F0C8EA10033A1A4 /* CHKCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AAF71F0C8EA10033A1A4 /* CHKCalendarTests.m */; };
 		CD56AB031F0C8EA20033A1A4 /* CHKCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AB021F0C8EA20033A1A4 /* CHKCalendarUITests.m */; };
+		CD56AB1B1F0C8ED00033A1A4 /* CHKCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AB121F0C8ED00033A1A4 /* CHKCalendar.m */; };
+		CD56AB1C1F0C8ED00033A1A4 /* CHKCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AB141F0C8ED00033A1A4 /* CHKCalendarCollectionViewCell.m */; };
+		CD56AB1D1F0C8ED00033A1A4 /* CHKCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AB161F0C8ED00033A1A4 /* CHKCalendarCollectionViewLayout.m */; };
+		CD56AB1E1F0C8ED00033A1A4 /* CHKCalendarData.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AB181F0C8ED00033A1A4 /* CHKCalendarData.m */; };
+		CD56AB1F1F0C8ED00033A1A4 /* CHKCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AB1A1F0C8ED00033A1A4 /* CHKCalendarManager.m */; };
+		CD56AB231F0CAEEA0033A1A4 /* UIView+VIewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD56AB221F0CAEEA0033A1A4 /* UIView+VIewFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,19 @@
 		CD56AAFE1F0C8EA20033A1A4 /* CHKCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHKCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD56AB021F0C8EA20033A1A4 /* CHKCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHKCalendarUITests.m; sourceTree = "<group>"; };
 		CD56AB041F0C8EA20033A1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD56AB111F0C8ED00033A1A4 /* CHKCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKCalendar.h; sourceTree = "<group>"; };
+		CD56AB121F0C8ED00033A1A4 /* CHKCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKCalendar.m; sourceTree = "<group>"; };
+		CD56AB131F0C8ED00033A1A4 /* CHKCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		CD56AB141F0C8ED00033A1A4 /* CHKCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		CD56AB151F0C8ED00033A1A4 /* CHKCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		CD56AB161F0C8ED00033A1A4 /* CHKCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		CD56AB171F0C8ED00033A1A4 /* CHKCalendarData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKCalendarData.h; sourceTree = "<group>"; };
+		CD56AB181F0C8ED00033A1A4 /* CHKCalendarData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKCalendarData.m; sourceTree = "<group>"; };
+		CD56AB191F0C8ED00033A1A4 /* CHKCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKCalendarManager.h; sourceTree = "<group>"; };
+		CD56AB1A1F0C8ED00033A1A4 /* CHKCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKCalendarManager.m; sourceTree = "<group>"; };
+		CD56AB201F0C8F440033A1A4 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		CD56AB211F0CAEEA0033A1A4 /* UIView+VIewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VIewFrame.h"; sourceTree = "<group>"; };
+		CD56AB221F0CAEEA0033A1A4 /* UIView+VIewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VIewFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +124,7 @@
 				CD56AAE11F0C8EA10033A1A4 /* AppDelegate.m */,
 				CD56AAE31F0C8EA10033A1A4 /* ViewController.h */,
 				CD56AAE41F0C8EA10033A1A4 /* ViewController.m */,
+				CD56AB101F0C8ED00033A1A4 /* Calendar */,
 				CD56AAE61F0C8EA10033A1A4 /* Main.storyboard */,
 				CD56AAE91F0C8EA10033A1A4 /* Assets.xcassets */,
 				CD56AAEB1F0C8EA10033A1A4 /* LaunchScreen.storyboard */,
@@ -138,6 +158,26 @@
 				CD56AB041F0C8EA20033A1A4 /* Info.plist */,
 			);
 			path = CHKCalendarUITests;
+			sourceTree = "<group>";
+		};
+		CD56AB101F0C8ED00033A1A4 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CD56AB111F0C8ED00033A1A4 /* CHKCalendar.h */,
+				CD56AB121F0C8ED00033A1A4 /* CHKCalendar.m */,
+				CD56AB131F0C8ED00033A1A4 /* CHKCalendarCollectionViewCell.h */,
+				CD56AB141F0C8ED00033A1A4 /* CHKCalendarCollectionViewCell.m */,
+				CD56AB151F0C8ED00033A1A4 /* CHKCalendarCollectionViewLayout.h */,
+				CD56AB161F0C8ED00033A1A4 /* CHKCalendarCollectionViewLayout.m */,
+				CD56AB171F0C8ED00033A1A4 /* CHKCalendarData.h */,
+				CD56AB181F0C8ED00033A1A4 /* CHKCalendarData.m */,
+				CD56AB191F0C8ED00033A1A4 /* CHKCalendarManager.h */,
+				CD56AB1A1F0C8ED00033A1A4 /* CHKCalendarManager.m */,
+				CD56AB201F0C8F440033A1A4 /* Macro.h */,
+				CD56AB211F0CAEEA0033A1A4 /* UIView+VIewFrame.h */,
+				CD56AB221F0CAEEA0033A1A4 /* UIView+VIewFrame.m */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +247,7 @@
 				TargetAttributes = {
 					CD56AAD91F0C8EA10033A1A4 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GX4T7SPG84;
 						ProvisioningStyle = Automatic;
 					};
 					CD56AAF21F0C8EA10033A1A4 = {
@@ -273,7 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD56AB1B1F0C8ED00033A1A4 /* CHKCalendar.m in Sources */,
+				CD56AB231F0CAEEA0033A1A4 /* UIView+VIewFrame.m in Sources */,
+				CD56AB1D1F0C8ED00033A1A4 /* CHKCalendarCollectionViewLayout.m in Sources */,
+				CD56AB1F1F0C8ED00033A1A4 /* CHKCalendarManager.m in Sources */,
 				CD56AAE51F0C8EA10033A1A4 /* ViewController.m in Sources */,
+				CD56AB1E1F0C8ED00033A1A4 /* CHKCalendarData.m in Sources */,
+				CD56AB1C1F0C8ED00033A1A4 /* CHKCalendarCollectionViewCell.m in Sources */,
 				CD56AAE21F0C8EA10033A1A4 /* AppDelegate.m in Sources */,
 				CD56AADF1F0C8EA10033A1A4 /* main.m in Sources */,
 			);
@@ -426,7 +473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GX4T7SPG84;
 				INFOPLIST_FILE = CHKCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chk.CHKCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +486,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GX4T7SPG84;
 				INFOPLIST_FILE = CHKCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chk.CHKCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
